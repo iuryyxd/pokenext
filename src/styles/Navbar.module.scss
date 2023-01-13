@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1.2em;
+    margin-bottom: 2em;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+        margin-left: 0.5em;
+    }
+}
+
+.link__items {
+    display: flex;
+
+    li {
+        margin-right: 1.3em;
+    }
+
+    a {
+        color: #fff;
+        text-align: none;
+        padding: 5px;
+        transition: .4s;
+        border-bottom: 2px solid transparent;
+
+        &:hover {
+            border-bottom: 2px solid #fff;
+        }
+    }
+}

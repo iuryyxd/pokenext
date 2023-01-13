@@ -1,0 +1,26 @@
+.title_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2em;
+  gap: 0.4em;
+
+  h1 {
+    color: #e33d33;
+    text-align: center;
+    font-size: 3em;
+
+    span {
+        color: #333;
+    }
+  }
+}
+
+.pokemon_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1110px;
+    margin: 0 auto;
+}
